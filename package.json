@@ -1,0 +1,22 @@
+{
+	"name": "ts-node-boilerplate",
+	"version": "1.0.0",
+	"description": "A boilerplate for Node.js and TypeScript.",
+	"main": "src/index.ts",
+	"scripts": {
+		"test": "mocha",
+		"format": "prettier --write .",
+		"build": "tsc",
+		"build:w": "tsc -w",
+		"start": "echo 'Just a boilerplate!'"
+	},
+	"author": "Shashank Kaul <kaulshashank96@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/mocha": "^9.1.1",
+		"@types/node": "^18.0.0",
+		"mocha": "^10.0.0",
+		"prettier": "2.7.1",
+		"ts-node": "^10.8.1"
+	}
+}
